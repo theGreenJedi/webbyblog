@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	Created by: ressourcenmangel GmbH, http://www.ressourcenmangel.de, Tel.: 030 61002450
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2018 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+
+
+<meta name="generator" content="TYPO3 CMS">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="description" content="Bertelsmann-Stiftung">
+<meta name="keywords" content="Bertelsmann-Stiftung, Bertelsmann,Stiftung">
+<meta name="date" content="2018-09-26T06:45:02">
+<meta name="title" content="Careers - Bertelsmann Stiftung">
+
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+/*_scriptCode*/
+
+			// decrypt helper function
+		function decryptCharcode(n,start,end,offset) {
+			n = n + offset;
+			if (offset > 0 && n > end) {
+				n = start + (n - end - 1);
+			} else if (offset < 0 && n < start) {
+				n = end - (start - n - 1);
+			}
+			return String.fromCharCode(n);
+		}
+			// decrypt string
+		function decryptString(enc,offset) {
+			var dec = "";
+			var len = enc.length;
+			for(var i=0; i < len; i++) {
+				var n = enc.charCodeAt(i);
+				if (n >= 0x2B && n <= 0x3A) {
+					dec += decryptCharcode(n,0x2B,0x3A,offset);	// 0-9 . , - + / :
+				} else if (n >= 0x40 && n <= 0x5A) {
+					dec += decryptCharcode(n,0x40,0x5A,offset);	// A-Z @
+				} else if (n >= 0x61 && n <= 0x7A) {
+					dec += decryptCharcode(n,0x61,0x7A,offset);	// a-z
+				} else {
+					dec += enc.charAt(i);
+				}
+			}
+			return dec;
+		}
+			// decrypt spam-protected emails
+		function linkTo_UnCryptMailto(s) {
+			location.href = decryptString(s,-2);
+		}
+		
+
+/*]]>*/
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="date" content="2018-09-26T06:45:02" />
+<title>Careers</title>
+<link rel="stylesheet" href="https://assets.bertelsmann-stiftung.de/2/stylesheets/main.css">
+<script>
+	document.documentElement.className = document.documentElement.className.replace(/(\s|^)no-js(\s|$)/, '$1js$2');
+	window.lazySizesConfig = {
+		lazyClass: 'js-lazyload'
+	};
+	window.bst = {
+		TITLE: 'Bertelsmann Stiftung',
+		ASSET_BASE_URL: 'https://assets.bertelsmann-stiftung.de/2/',
+		JS_BASE_URL: 'https://assets.bertelsmann-stiftung.de/2/javascripts',
+		ICON_SPRITE_URL: 'https://assets.bertelsmann-stiftung.de/2/icons/icons.svg',
+		LOGO_SPRITE_URL: 'https://assets.bertelsmann-stiftung.de/2/images/logo.svg'
+	};
+</script>
+<script>!function(e){var t={};function n(o){if(t[o])return t[o].exports;var r=t[o]={i:o,l:!1,exports:{}};return e[o].call(r.exports,r,r.exports,n),r.l=!0,r.exports}n.m=e,n.c=t,n.d=function(e,t,o){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:o})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var r in e)n.d(o,r,function(t){return e[t]}.bind(null,r));return o},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="/javascripts/",n(n.s=457)}({11:function(e,t,n){"use strict";n.d(t,"a",function(){return r}),n.d(t,"b",function(){return i}),n.d(t,"e",function(){return a}),n.d(t,"c",function(){return d}),n.d(t,"d",function(){return c});var o=window.bst||{},r=o.ASSET_BASE_URL||"/",i=o.ICON_SPRITE_URL||"/icons/icons.svg",a=o.TITLE||"Bertelsmann Stiftung",d=document.documentElement.lang||"de",c={s:"(min-width: 0px)",m:"(min-width: 36.25em)",l:"(min-width: 51.875em)",xl:"(min-width: 68.75em)"}},457:function(e,t,n){"use strict";n.r(t);var o=n(11);try{if(sessionStorage.fontsLoaded)document.documentElement.className+=" has-optimized-font has-headline-font has-fonts";else if("fonts"in document)document.fonts.load("1em Lato Optimized").then(function(){document.documentElement.className+=" has-optimized-font",Promise.all([document.fonts.load("400 1em Merriweather")]).then(function(){document.documentElement.className+=" has-headline-font"}),Promise.all([document.fonts.load("400 1em Lato"),document.fonts.load("italic 400 1em Lato"),document.fonts.load("700 1em Lato"),document.fonts.load("italic 700 1em Lato")]).then(function(){document.documentElement.className+=" has-fonts",sessionStorage.fontsLoaded=!0})});else{var r=document.getElementsByTagName("script")[0],i=document.createElement("script");i.src="".concat(o.a,"javascripts/font-loader.js"),i.async=!0,r.parentNode.insertBefore(i,r)}}catch(e){document.documentElement.className+=" has-fonts has-condensed-fonts"}!function(e){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:function(){},n=new XMLHttpRequest;n.open("GET",e,!0),n.onreadystatechange=function(){if(4===n.readyState){var e=document.createElement("div"),o=function(){document.body.appendChild(e),t()};e.setAttribute("style","height: 0; width: 0; position: absolute; visibility: hidden; display: none"),e.innerHTML=n.responseText,"complete"===document.readyState?o():(document.addEventListener("DOMContentLoaded",function(){return o()},!1),window.addEventListener("load",function(){return o()},!1))}},n.send()}(o.b)}});</script>
+<script src="https://assets.bertelsmann-stiftung.de/2/javascripts/head-async.js" async></script>
+<link rel="preload" href="https://assets.bertelsmann-stiftung.de/2/fonts/lato-regular-optimized.woff2" as="font" type="font/woff2" crossorigin>
+
+<meta property="og:title" content="Careers - Career and development opportunities in the Bertelsmann Stiftung" />
+<meta property="og:description" content="Read more about the various career opportunities we offer for professionals, junior professionals and interns." />
+<meta property="og:image" content="https://www.bertelsmann-stiftung.de/fileadmin/files/_processed_/7/b/csm_Herbst_BST_2015_0329_ST_CO_Original_73578_e1766d9fb3.jpg?v=1" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@BertelsmannSt">
+<meta name="twitter:title" content="Careers - Career and development opportunities in the Bertelsmann Stiftung">
+<meta name="twitter:description" content="Read more about the various career opportunities we offer for professionals, junior professionals and interns.">
+<meta name="twitter:creator" content="@BertelsmannSt">
+<meta name="twitter:image:src" content="https://www.bertelsmann-stiftung.de/fileadmin/files/_processed_/7/b/csm_Herbst_BST_2015_0329_ST_CO_Original_73578_e1766d9fb3.jpg?v=1">
+<meta name="twitter:domain" content="bertelsmann-stiftung.de"><meta property="og:url" content="https://www.bertelsmann-stiftung.de/en/careers/" /><meta name="date" content="2018-09-26T06:45:02" />
+</head>
+<body>
+
+<div class="page" id="page">
+	
+<a class="skip-link t-inverted" href="#content"><span class="more-link"><span class="more-link__text">Zum Inhalt springen</span></span>
+</a>
+<header class="header">
+	<div class="header__inner">
+		<div class="header__logo-wrap">
+			<a href="/en/home/" class="logo logo--large header__logo">
+				<svg class="logo__image" viewBox="0 0 230 28" role="img" aria-labelledby="logo-8bfb-title">
+					<title id="logo-8bfb-title">Bertelsmann Stiftung</title>
+					<use xlink:href="#icon-logo-large"></use>
+				</svg>
+			</a>
+		</div>
+		<nav class="header__wrapper" aria-labelledby="header-toggle">
+			<button class="header__toggle"
+					id="header-toggle"
+					aria-expanded="false"
+					aria-controls="header-mobile-menu"><span class="header__toggle-icon"></span><span class="u-hidden-visually">Menü</span></button>
+			<div class="header__menu" id="header-mobile-menu">
+				<ul class="header__navigation">
+					<li class="header__navigation-item-wrap"><a href="/en/topics/" class="header__navigation-item js-navigation-dialog"><span class="header__navigation-item-inner">Topics</span></a><ul class="header__subnavigation"><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/topics/improving-education/" class="header__subnavigation-item" data-section-name="Improving Education" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=28&cHash=22cff24ee6dd1f86c3ca94b1bf364340">Improving Education</a><ul class="header__subnavigation-list"><li class="header__subnavigation-item-wrap"><a href="/en/topics/improving-education/early-childhood-education/" title="Early Childhood Education" class="header__subnavigation-item">Early Childhood Education</a></li><li class="header__subnavigation-item-wrap"><a href="/en/topics/improving-education/vocational-training-and-continuing-education/" title="Vocational Training and Continuing Education" class="header__subnavigation-item">Vocational Training and Continuing Education</a></li></ul></li><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/topics/shaping-democracy/" class="header__subnavigation-item" data-section-name="Shaping Democracy" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=327&cHash=5afbe945a7c403ba1041de73ddc576da">Shaping Democracy</a><ul class="header__subnavigation-list"><li class="header__subnavigation-item-wrap"><a href="/en/topics/shaping-democracy/europes-future/" title="Europe’s Future" class="header__subnavigation-item">Europe’s Future</a></li><li class="header__subnavigation-item-wrap"><a href="/en/topics/shaping-democracy/international-governance/" title="International Governance" class="header__subnavigation-item">International Governance</a></li></ul></li><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/topics/strengthening-economies/" class="header__subnavigation-item" data-section-name="Strengthening Economies" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=12&cHash=2f16ec949c0e1b61042e0b2ebe178984">Strengthening Economies</a><ul class="header__subnavigation-list"><li class="header__subnavigation-item-wrap"><a href="/en/topics/strengthening-economies/globalization/" title="Globalization" class="header__subnavigation-item">Globalization</a></li><li class="header__subnavigation-item-wrap"><a href="/en/topics/strengthening-economies/employment/" title="Employment" class="header__subnavigation-item">Employment</a></li><li class="header__subnavigation-item-wrap"><a href="/en/topics/strengthening-economies/sustainability/" title="Sustainability" class="header__subnavigation-item">Sustainability</a></li><li class="header__subnavigation-item-wrap"><a href="/en/topics/strengthening-economies/corporate-culture-and-csr/" title="Corporate Culture and CSR" class="header__subnavigation-item">Corporate Culture and CSR</a></li></ul></li><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/topics/advancing-societies/" class="header__subnavigation-item" data-section-name="Advancing Societies" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=27&cHash=46dbe5c96f3390393e6a6fdbd10d7cf9">Advancing Societies</a><ul class="header__subnavigation-list"><li class="header__subnavigation-item-wrap"><a href="/en/topics/advancing-societies/intergenerational-justice/" title="Intergenerational Justice" class="header__subnavigation-item">Intergenerational Justice</a></li><li class="header__subnavigation-item-wrap"><a href="/en/topics/advancing-societies/integration-and-diversity/" title="Integration and Diversity" class="header__subnavigation-item">Integration and Diversity</a></li><li class="header__subnavigation-item-wrap"><a href="/en/topics/advancing-societies/demographic-change/" title="Demographic Change" class="header__subnavigation-item">Demographic Change</a></li></ul></li><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/topics/promoting-health/" class="header__subnavigation-item" data-section-name="Promoting Health" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=31&cHash=474ad6e7291b4d88133b8744447f3342">Promoting Health</a><ul class="header__subnavigation-list"><li class="header__subnavigation-item-wrap"><a href="/en/topics/promoting-health/healthcare/" title="Healthcare" class="header__subnavigation-item">Healthcare</a></li><li class="header__subnavigation-item-wrap"><a href="/en/topics/promoting-health/nursing-and-home-care/" title="Nursing and Home Care" class="header__subnavigation-item">Nursing and Home Care</a></li></ul></li><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/topics/vitalizing-culture/" class="header__subnavigation-item" data-section-name="Vitalizing Culture" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=29&cHash=50063da83738dcfd9b675018d2eaf0bc">Vitalizing Culture</a><ul class="header__subnavigation-list"><li class="header__subnavigation-item-wrap"><a href="/en/topics/vitalizing-culture/promoting-new-talent/" title="Promoting New Talent" class="header__subnavigation-item">Promoting New Talent</a></li><li class="header__subnavigation-item-wrap"><a href="/en/topics/vitalizing-culture/singing-competition/" title="Singing Competition" class="header__subnavigation-item">Singing Competition</a></li></ul></li></ul></li><li class="header__navigation-item-wrap"><a href="/en/our-projects/" class="header__navigation-item js-navigation-dialog"><span class="header__navigation-item-inner">Our Projects</span></a><ul class="header__subnavigation"><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/our-projects/" class="header__subnavigation-item" data-section-name="Project Overview" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=10633&cHash=cca0b0ea1e62fc9d432c802c49c8e34a">Project Overview</a></li><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/our-projects/what-we-do/" class="header__subnavigation-item" data-section-name="What We Do" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=525&cHash=4af0016e2c3eefc5ba0764b327bb82af">What We Do</a></li><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/our-projects/blogs/" class="header__subnavigation-item" data-section-name="Blogs" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=4912&cHash=e43846db16784b54a2655543bc6fb605">Blogs</a></li></ul></li><li class="header__navigation-item-wrap"><a href="/en/about-us/" class="header__navigation-item js-navigation-dialog"><span class="header__navigation-item-inner">About Us</span></a><ul class="header__subnavigation"><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/about-us/who-we-are/organization/" class="header__subnavigation-item" data-section-name="Who We Are" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=25&cHash=53b17da02c2cac4e75695332191a2a7b">Who We Are</a></li><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/about-us/what-motivates-us/our-mission/" class="header__subnavigation-item" data-section-name="What Motivates Us" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=11&cHash=199a1760b33f1bab4b960e2b42b1179b">What Motivates Us</a></li></ul></li><li class="header__navigation-item-wrap"><a href="/en/publications/books-and-studies/new-publications/" class="header__navigation-item js-navigation-dialog"><span class="header__navigation-item-inner">Publications</span></a><ul class="header__subnavigation"><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/publications/books-and-studies/all-publications/" class="header__subnavigation-item" data-section-name="Books and Studies" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=65&cHash=471fec9f518770f8c9df23edb1c01c4b">Books and Studies</a><ul class="header__subnavigation-list"><li class="header__subnavigation-item-wrap"><a href="/en/publications/books-and-studies/new-publications/" title="New Publications" class="header__subnavigation-item">New Publications</a></li><li class="header__subnavigation-item-wrap"><a href="/en/publications/books-and-studies/books/" title="Books" class="header__subnavigation-item">Books</a></li><li class="header__subnavigation-item-wrap"><a href="/en/publications/books-and-studies/e-books/" title="E-Books" class="header__subnavigation-item">E-Books</a></li><li class="header__subnavigation-item-wrap"><a href="/en/publications/books-and-studies/studies-free-of-charge/" title="Studies (free of charge)" class="header__subnavigation-item">Studies (free of charge)</a></li><li class="header__subnavigation-item-wrap"><a href="/en/publications/books-and-studies/all-publications/" title="All Publications" class="header__subnavigation-item">All Publications</a></li><li class="header__subnavigation-item-wrap"><a href="/en/publications/books-and-studies/verlag-bertelsmann-stiftung/" title="Verlag Bertelsmann Stiftung" class="header__subnavigation-item">Verlag Bertelsmann Stiftung</a></li></ul></li><li class="header__subnavigation-item-wrap header__subnavigation-item-wrap--parent"><a href="/en/publications/informational-material/" class="header__subnavigation-item" data-section-name="Informational Material" data-section-button="read more" data-section-api-endpoint="/en/jsonapi/careers/?pageuid=66&cHash=ea1f5aff898a58ae8f8d64073b924b7f">Informational Material</a><ul class="header__subnavigation-list"><li class="header__subnavigation-item-wrap"><a href="/en/publications/informational-material/brochures/" title="Brochures" class="header__subnavigation-item">Brochures</a></li><li class="header__subnavigation-item-wrap"><a href="/en/publications/informational-material/change-magazine/" title="Change Magazine" class="header__subnavigation-item">Change Magazine</a></li><li class="header__subnavigation-item-wrap"><a href="/en/publications/informational-material/newsletters/" title="Newsletters" class="header__subnavigation-item">Newsletters</a></li><li class="header__subnavigation-item-wrap"><a href="/en/publications/informational-material/annual-report-2017/" title="Annual report 2017" class="header__subnavigation-item">Annual report 2017</a></li></ul></li></ul></li>
+				</ul>
+				<ul class="header__meta-navigation">
+					<li class="header__meta-navigation-item-wrap"><a href="/en/press/" class="header__meta-navigation-item">Press</a></li><li class="header__meta-navigation-item-wrap"><a href="/en/careers/" class="header__meta-navigation-item">Careers</a></li><li class="header__meta-navigation-item-wrap"><a href="/en/system/meta/newsletters/" class="header__meta-navigation-item">Newsletters</a></li>
+					<li class="header__meta-navigation-item-wrap"><a href="/de/karriere/" class="header__meta-navigation-item" hreflang="de">Deutsch</a></li>
+					<li class="header__meta-navigation-item-wrap">
+						<a href="http://www.change-magazin.de/de/change-magazin-das-magazin-der-bertelsmann-stiftung/" target="_blank" class="logo logo--change header__change-logo">
+							<svg class="logo__image" viewBox="0 0 230 54" role="img" aria-labelledby="logo-8141-title">
+								<title id="logo-8141-title">change Magazin</title>
+								<use xlink:href="#icon-logo-change"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+				<!-- @TODO Check Search  -->
+				<div class="header__search">
+					<script type="application/ld+json">
+					  {
+						"@context": "http://schema.org",
+						"@type": "WebSite",
+						"url": "https://www.bertelsmann-stiftung.de/",
+						"potentialAction": {
+						  "@type": "SearchAction",
+						  "target": "https://www.bertelsmann-stiftung.de/de/system/suchergebnisseite/?tx_rsmsearch_pi1[searchQuery][queryString]={search_term_string}",
+						  "query-input": "required name=search_term_string"
+						}
+					  }
+					</script>
+					<form role="search" method="post" class="search-input" action="/en/system/search-results/?tx__%5Baction%5D=index&amp;tx__%5Bcontroller%5D=Standard&amp;cHash=066035b666091c9898f7b901dbd1e04b">
+<div>
+<input type="hidden" name="__referrer[@extension]" value="" />
+<input type="hidden" name="__referrer[@controller]" value="Standard" />
+<input type="hidden" name="__referrer[@action]" value="index" />
+<input type="hidden" name="__referrer[arguments]" value="YTowOnt96239ba757df9b92d478226e76e0e7a2716be3d63" />
+<input type="hidden" name="__referrer[@request]" value="a:3:{s:10:&quot;@extension&quot;;N;s:11:&quot;@controller&quot;;s:8:&quot;Standard&quot;;s:7:&quot;@action&quot;;s:5:&quot;index&quot;;}aeb8651637d98e35ea8bd9f479dcdbad84653c4b" />
+<input type="hidden" name="__trustedProperties" value="a:1:{s:16:&quot;tx_rsmsearch_pi1&quot;;a:1:{s:11:&quot;searchQuery&quot;;a:1:{s:11:&quot;queryString&quot;;i:1;}}}b0e1b1dd14fbdeb550213a290386205af901f57d" />
+</div>
+
+						<input type="hidden" name="id" value="86"/>
+						<label class="label search-input__label u-hidden-visually" for="search-query">
+							Enter Search Term
+						</label>
+						<input id="search-query" data-typeahead-source-url="/de/suchergebnisseite/?type=1354795326&amp;tx_rsmsearch_pi1%5BsearchQuery%5D%5BqueryString%5D=___query___&amp;tx_rsmsearch_pi1%5BsearchQuery%5D%5Blanguage%5D=___language___&amp;tx_rsmsearch_pi1%5Baction%5D=complete" placeholder="Enter Search Term" class="input input--secondary search-input__input" type="text" name="tx_rsmsearch_pi1[searchQuery][queryString]" />
+						<button class="button button--secondary button--small search-input__button" type="submit">
+							<svg class="icon icon--search button__icon" viewBox="0 0 200 200" role="img" aria-labelledby="icon-f3ba-title">
+								<title id="icon-f3ba-title">Suchen</title>
+								<use xlink:href="#icon-search"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</div>
+</header>
+<div class="breadcrumb" aria-label="Aktuelle Position">
+	<ol class="breadcrumb__list" itemscope="itemscope" itemtype="http://schema.org/BreadcrumbList">
+		<li class="breadcrumb__list-item breadcrumb__list-item--hidden"
+			itemprop="itemListElement"
+			itemscope="itemscope"
+			itemtype="http://schema.org/ListItem">
+			<a class="breadcrumb__item" href="/" itemtype="http://schema.org/Thing" itemprop="item" itemscope="itemscope"><span class="breadcrumb__label" itemprop="name">Startseite</span></a>
+			<meta itemprop="position" content="1" />
+		</li><li class="breadcrumb__list-item"
+				 itemprop="itemListElement"
+				 itemscope="itemscope" itemtype="http://schema.org/ListItem"><a href="/en/careers/" class="breadcrumb__item" itemtype="http://schema.org/Thing" itemprop="item" itemscope="itemscope" aria-current="page">Careers</a><meta itemprop="position" content="1" />
+				 </li></ol>
+</div>
+
+
+	<main class="page__content">
+		
+<div class="page__section" id="c20147"><header class="tx-rsmbstthemenheader-pi1 content-header"><div class="content-header__inner t-inverted"><div class="content-header__media"><div class="image image--cover loading content-header__image"><noscript><img class="image__fallback" src="/fileadmin/files/_processed_/7/b/csm_Herbst_BST_2015_0329_ST_CO_Original_73578_98013ad49f.jpg" width="830" height="295" alt="" title="Stiftungsgebäude" /></noscript><img class="image__img js-lazyload" data-src="/fileadmin/files/_processed_/7/b/csm_Herbst_BST_2015_0329_ST_CO_Original_73578_98013ad49f.jpg"
+								 width="830"
+								 height="295" /></div></div><div class="content-header__content"><div class="content-header__headline"><h1 class="headline headline--2"><span class="headline__kicker">Careers<span class="u-hidden-visually">: </span></span>
+						Career and development opportunities in the Bertelsmann Stiftung</h1></div><div class="content-header__intro"><p>Read more about the various career opportunities we offer for professionals, junior professionals and interns.</p></div></div></div></header></div>
+
+<div class="page__section" id="c20155"><div class="grid grid--25-25-25-25"><div class="grid__row"><div class="grid__col grid__col--1"><div class="grid__item">
+<article id="c20157" class="tx-rsmbstbildtextteaser_pi1 teaser ">
+	
+		<div class="teaser__image">
+			
+			<div class="image image--cover loading">
+				<noscript>
+					<a href="/en/careers/professionals/">
+
+    <img class="img-autoscaled" title=" (© Jan Voth)" alt="Gesprächssituation."
+         src="/typo3temp/GB/csm_141017_A01B0866_40002_1240x600px_Original_40703_70bea605e9_af36569cdd.jpg">
+
+
+
+
+
+</a>
+				</noscript>
+				<img class="image__img js-lazyload" data-src="/fileadmin/files/_processed_/6/5/csm_141017_A01B0866_40002_1240x600px_Original_40703_5319d3979f.jpg" width="610" height="295" alt="Gesprächssituation." />
+			</div>
+		</div>
+	
+	<div class="teaser__content">
+		<header class="teaser__header">
+			<div class="teaser__headline">
+				<h3 class="headline headline--teaser" id="teaser-20157-headline">
+					
+						<span class="headline__kicker teaser__kicker">Professionals<span class="u-hidden-visually">: </span></span>
+					
+					
+						<a href="/en/careers/professionals/">Drawing on experience to gain new experience</a>
+					
+				</h3>
+			</div>
+		</header>
+		
+		
+			<footer class="teaser__footer">
+				<a href="/en/careers/professionals/" class="more-link teaser__more-link teaser__overlay-link" aria-describedby="teaser-20157-headline">
+					<span class="more-link__text">read more</span>
+				</a>
+			</footer>
+		
+	</div>
+</article>
+
+</div></div><div class="grid__col grid__col--2"><div class="grid__item">
+<article id="c70050" class="tx-rsmbstbildtextteaser_pi1 teaser ">
+	
+		<div class="teaser__image">
+			
+			<div class="image image--cover loading">
+				<noscript>
+					<a href="/en/careers/junior-professionals/">
+    
+    
+            
+                    
+                    <img class="img-autoscaled" title=" (© Kai Uwe Oesterhelweg)" alt="JPs"
+                         src="/typo3temp/GB/csm_2017_03_03_Stiftung_JPs_0878_ST_CO_Original_72492_2ec87b44b4_24bdf2fbb1.jpg">
+                
+        
+
+
+
+
+
+
+</a>
+				</noscript>
+				<img class="image__img js-lazyload" data-src="/fileadmin/files/_processed_/e/3/csm_2017_03_03_Stiftung_JPs_0878_ST_CO_Original_72492_4ee2c9bde7.jpg" width="610" height="295" alt="JPs" />
+			</div>
+		</div>
+	
+	<div class="teaser__content">
+		<header class="teaser__header">
+			<div class="teaser__headline">
+				<h3 class="headline headline--teaser" id="teaser-70050-headline">
+					
+						<span class="headline__kicker teaser__kicker">Junior Professionals<span class="u-hidden-visually">: </span></span>
+					
+					
+						<a href="/en/careers/junior-professionals/">Career and development opportunities</a>
+					
+				</h3>
+			</div>
+		</header>
+		
+		
+			<footer class="teaser__footer">
+				<a href="/en/careers/junior-professionals/" class="more-link teaser__more-link teaser__overlay-link" aria-describedby="teaser-70050-headline">
+					<span class="more-link__text">read more</span>
+				</a>
+			</footer>
+		
+	</div>
+</article>
+
+</div></div><div class="grid__col grid__col--3"><div class="grid__item">
+<article id="c20158" class="tx-rsmbstbildtextteaser_pi1 teaser ">
+	
+		<div class="teaser__image">
+			
+			<div class="image image--cover loading">
+				<noscript>
+					<a href="/en/careers/interns/">
+    
+    
+            
+                    
+                    <img class="img-autoscaled" title=" (© Jan Voth)" alt=""
+                         src="/typo3temp/GB/csm_140905_A01B9001_jan_voth_Original_46320_c60c1be0f7_9a389817b4.jpg">
+                
+        
+
+
+
+
+
+
+</a>
+				</noscript>
+				<img class="image__img js-lazyload" data-src="/fileadmin/files/mam_imported/2015-05/140905_A01B9001_jan_voth_Original_46320.jpg" width="610" height="295" alt="140905_A01B9001_jan_voth.jpg" />
+			</div>
+		</div>
+	
+	<div class="teaser__content">
+		<header class="teaser__header">
+			<div class="teaser__headline">
+				<h3 class="headline headline--teaser" id="teaser-20158-headline">
+					
+						<span class="headline__kicker teaser__kicker">Interns<span class="u-hidden-visually">: </span></span>
+					
+					
+						<a href="/en/careers/interns/">Learn how things are done in practice!</a>
+					
+				</h3>
+			</div>
+		</header>
+		
+		
+			<footer class="teaser__footer">
+				<a href="/en/careers/interns/" class="more-link teaser__more-link teaser__overlay-link" aria-describedby="teaser-20158-headline">
+					<span class="more-link__text">read more</span>
+				</a>
+			</footer>
+		
+	</div>
+</article>
+
+</div></div><div class="grid__col grid__col--3"><div class="grid__item"><article class="tx-rsmbstcontent person-teaser">
+    
+        <div class="person-teaser__headline" id="person-teaser-22602-contacts">
+            <h3 class="headline headline--kicker">Contact</h3>
+        </div>
+        <ul class="person-teaser__list person-teaser__list--team" aria-labelledby="person-teaser-22602-contacts">
+            <li class="person-teaser__list-item">
+	<a class="person js-person-dialog" href="#" data-api-url="/en/contactjsonapi/careers/?tx_rsmbstcontent_contactapi%5Buid%5D=175&tx_rsmbstcontent_contactapi%5Baction%5D=show&tx_rsmbstcontent_contactapi%5Bcontroller%5D=API%5CContact&tx_rsmbstcontent_contactapi%5Bformat%5D=json&cHash=74284e7e0695652c1c564e4757fe3024">
+		<div class="person__image">
+			
+<img class="img-autoscaled" title="Foto Ulla Külker" alt="Foto Ulla Külker" src="/fileadmin/files/_processed_/2/1/csm_DES08_d6b091a35c.jpg">
+
+		</div>
+		<div class="person__label">
+			<span class="person__label-inner"> Ulla Külker</span>
+			
+		</div>
+	</a>
+</li>
+        </ul>
+    
+    
+    
+</article>
+
+</div></div></div></div></div>
+<div class="page__headline">
+	<h2 class="headline headline--2">About us</h2>
+	
+</div>
+
+<div class="page__section" id="c20165"><div class="grid grid--50-25-25"><div class="grid__row"><div class="grid__col grid__col--1"><div class="grid__item">
+<article id="c20162" class="tx-rsmbstbildtextteaser_pi1 teaser ">
+	
+		<div class="teaser__image">
+			
+			<div class="image image--cover loading">
+				<noscript>
+					<a href="/en/careers/the-bertelsmann-stiftung-in-numbers/">
+
+    <img class="img-autoscaled" title=" (© Jan Voth)" alt="A woman from behind, we are watching over here shoulde,r while she is reading the annual report"
+         src="/typo3temp/GB/csm_1531434269141017_A01B0764_39966_1240x600px_2017_81e80d7285_361990ac57.jpg">
+
+
+
+
+
+</a>
+				</noscript>
+				<img class="image__img js-lazyload" data-src="/fileadmin/files/_processed_/7/a/csm_1531434269141017_A01B0764_39966_1240x600px_2017_d9624b0af1.jpg" width="610" height="295" alt="A woman from behind, we are watching over here shoulde,r while she is reading the annual report" />
+			</div>
+		</div>
+	
+	<div class="teaser__content">
+		<header class="teaser__header">
+			<div class="teaser__headline">
+				<h3 class="headline headline--teaser" id="teaser-20162-headline">
+					
+						<span class="headline__kicker teaser__kicker">Facts and figures<span class="u-hidden-visually">: </span></span>
+					
+					
+						<a href="/en/careers/the-bertelsmann-stiftung-in-numbers/">The Bertelsmann Stiftung in numbers</a>
+					
+				</h3>
+			</div>
+		</header>
+		
+		
+			<footer class="teaser__footer">
+				<a href="/en/careers/the-bertelsmann-stiftung-in-numbers/" class="more-link teaser__more-link teaser__overlay-link" aria-describedby="teaser-20162-headline">
+					<span class="more-link__text">read more</span>
+				</a>
+			</footer>
+		
+	</div>
+</article>
+
+</div></div><div class="grid__col grid__col--2"><div class="grid__item">
+<article id="c20164" class="tx-rsmbstbildtextteaser_pi1 teaser ">
+	
+		<div class="teaser__image">
+			
+			<div class="image image--cover loading">
+				<noscript>
+					<a href="/en/about-us/what-motivates-us/our-founders-beliefs/">
+    
+    
+            
+                    
+                    <img class="img-autoscaled" title=" (© Veer Incorporated)" alt=""
+                         src="/typo3temp/GB/csm_Stifter_High_Res_38103_9455843edd_af43b5f724.jpg">
+                
+        
+
+
+
+
+
+
+</a>
+				</noscript>
+				<img class="image__img js-lazyload" data-src="/fileadmin/files/_processed_/0/a/csm_Stifter_High_Res_38103_287b0a99ac.jpg" width="610" height="295" alt="" />
+			</div>
+		</div>
+	
+	<div class="teaser__content">
+		<header class="teaser__header">
+			<div class="teaser__headline">
+				<h3 class="headline headline--teaser" id="teaser-20164-headline">
+					
+						<span class="headline__kicker teaser__kicker">What motivates us<span class="u-hidden-visually">: </span></span>
+					
+					
+						<a href="/en/about-us/what-motivates-us/our-founders-beliefs/">Our Founder's Beliefs</a>
+					
+				</h3>
+			</div>
+		</header>
+		
+		
+			<footer class="teaser__footer">
+				<a href="/en/about-us/what-motivates-us/our-founders-beliefs/" class="more-link teaser__more-link teaser__overlay-link" aria-describedby="teaser-20164-headline">
+					<span class="more-link__text">read more</span>
+				</a>
+			</footer>
+		
+	</div>
+</article>
+
+</div></div><div class="grid__col grid__col--3"><div class="grid__item"><section
+	class="highlight-teaser t-inverted highlight-teaser--secondary">
+	
+		<div class="highlight-teaser__headline">
+			<h3 class="headline headline--kicker" id="highlight-teaser-zt69274-headline">
+				The Bertelsmann Stiftung in numbers
+			</h3>
+		</div>
+	
+	
+		<div class="highlight-teaser__highlight">55</div>
+	
+	
+		<div class="highlight-teaser__description">
+			<p>In 2017, the Bertelsmann Foundation invested 55 million € in direct project work.</p>
+		</div>
+	
+	
+		<div class="highlight-teaser__more-link" aria-describedby="highlight-teaser-69274-headline">
+			<a href="/en/publications/informational-material/annual-report-2017/" class="more-link highlight-teaser__overlay-link">
+				<span class="more-link__text">
+					
+							Link Text
+						
+				</span>
+			</a>
+		</div>
+	
+</section></div></div></div></div></div>
+<div class="page__headline">
+	<h2 class="headline headline--2">FAQ</h2>
+	
+</div>
+
+<div class="page__section" id="c20169"><div class="grid grid--50-50"><div class="grid__row"><div class="grid__col grid__col--1"><div class="grid__item">
+<article id="c20168" class="tx-rsmbstbildtextteaser_pi1 teaser ">
+	
+		<div class="teaser__image">
+			
+			<div class="image image--cover loading">
+				<noscript>
+					<a href="/en/careers/tips-for-a-successful-application/">
+
+    <img class="img-autoscaled" title=" (© Kai Uwe Oesterhelweg)" alt="PA"
+         src="/typo3temp/GB/csm_2015_08_18_Personalabteilung_0051_Original_49140_4b7204eacb_c3b8aed452.jpg">
+
+
+
+
+
+</a>
+				</noscript>
+				<img class="image__img js-lazyload" data-src="/fileadmin/files/_processed_/9/f/csm_2015_08_18_Personalabteilung_0051_Original_49140_79b11cba7e.jpg" width="610" height="295" alt="PA" />
+			</div>
+		</div>
+	
+	<div class="teaser__content">
+		<header class="teaser__header">
+			<div class="teaser__headline">
+				<h3 class="headline headline--teaser" id="teaser-20168-headline">
+					
+						<span class="headline__kicker teaser__kicker">Your online application<span class="u-hidden-visually">: </span></span>
+					
+					
+						<a href="/en/careers/tips-for-a-successful-application/">Tips for a successful application</a>
+					
+				</h3>
+			</div>
+		</header>
+		
+		
+			<footer class="teaser__footer">
+				<a href="/en/careers/tips-for-a-successful-application/" class="more-link teaser__more-link teaser__overlay-link" aria-describedby="teaser-20168-headline">
+					<span class="more-link__text">read more</span>
+				</a>
+			</footer>
+		
+	</div>
+</article>
+
+</div></div><div class="grid__col grid__col--2"><div class="grid__item">
+<article id="c20167" class="tx-rsmbstbildtextteaser_pi1 teaser ">
+	
+		<div class="teaser__image">
+			
+			<div class="image image--cover loading">
+				<noscript>
+					<a href="/en/careers/frequently-asked-questions/">
+
+    <img class="img-autoscaled" title=" (© Jan Voth)" alt=""
+         src="/typo3temp/GB/csm_1471115746140910_A01B1316_38989_1240x600px_112699a644_6d1761535c.jpg">
+
+
+
+
+
+</a>
+				</noscript>
+				<img class="image__img js-lazyload" data-src="/fileadmin/files/_processed_/3/0/csm_1471115746140910_A01B1316_38989_1240x600px_30019510b7.jpg" width="610" height="295" alt="140910_A01B1316_38989_1240x600px140910_A01B1316_38989_1240x600px" />
+			</div>
+		</div>
+	
+	<div class="teaser__content">
+		<header class="teaser__header">
+			<div class="teaser__headline">
+				<h3 class="headline headline--teaser" id="teaser-20167-headline">
+					
+						<span class="headline__kicker teaser__kicker">Internships<span class="u-hidden-visually">: </span></span>
+					
+					
+						<a href="/en/careers/frequently-asked-questions/">Frequently asked questions</a>
+					
+				</h3>
+			</div>
+		</header>
+		
+		
+			<footer class="teaser__footer">
+				<a href="/en/careers/frequently-asked-questions/" class="more-link teaser__more-link teaser__overlay-link" aria-describedby="teaser-20167-headline">
+					<span class="more-link__text">read more</span>
+				</a>
+			</footer>
+		
+	</div>
+</article>
+
+</div></div></div></div></div>
+<div class="page__headline">
+	<h2 class="headline headline--2">Social Media</h2>
+	
+</div>
+
+<div class="page__section" id="c20175"><div class="grid grid--25-25-25-25"><div class="grid__row"><div class="grid__col grid__col--1"><div class="grid__item"><section class="tx-rsmbstfakebook-pi1 social-media-teaser social-media-teaser--facebook">
+    <svg class="icon icon--facebook social-media-teaser__icon social-media-teaser__icon--facebook" viewBox="0 0 200 200" role="presentation">
+        <use xlink:href="#icon-facebook"></use>
+    </svg>
+    <div class="social-media-teaser__headline">
+        <h3 class="headline headline--teaser">Bertelsmann Stiftung and Facebook</h3>
+    </div>
+    <div class="social-media-teaser__image">
+        <div class="image" style="padding-top: 52.83018867924528%;">
+            <img data-fburl="https://www.facebook.com/pages/Bertelsmann-Stiftung/22646353052" class="image__img" src="/typo3temp/_processed_/2/f/csm_fb_splash-2018_0acc099947.jpg" width="265" height="140" alt="" />
+        </div>
+    </div>
+    <div class="social-media-teaser__content">
+        <p>You must first click on the module to activate it before any information is transmitted to Facebook. The Privacy button lets you undo the activation.</p>
+    </div>
+    <div class="social-media-teaser__more-link">
+        <a class="more-link social-media-teaser__overlay-link js-facebook-splash"
+           href="https://www.facebook.com/pages/Bertelsmann-Stiftung/22646353052"
+           target="_blank"
+           rel="noopener noreferrer"><span class="more-link__text">Activate Facebook-Plugin</span></a>
+        
+    </div>
+</section>
+</div></div><div class="grid__col grid__col--2"><div class="grid__item">
+	<section class="social-media-teaser social-media-teaser--twitter">
+		<svg class="icon icon--twitter social-media-teaser__icon social-media-teaser__icon--twitter" viewBox="0 0 200 200" role="presentation">
+			<use xlink:href="#icon-twitter"></use>
+		</svg>
+		<div class="social-media-teaser__headline">
+			<h3 class="headline headline--teaser"></h3>
+		</div>
+		<div class="social-media-teaser__content js-tweets"
+			 data-api="/?eID=tx_rsmbsttwitter_ajax_b&ceUid=20174&key=3019f7a711ab16e389ef3bc300901737bcf86a7d&locale=en_GB&language=1&max=4"></div>
+		
+			<div class="social-media-teaser__more-link">
+				<a class="more-link"
+				   href="https://twitter.com/BertelsmannSt"
+				   rel="noopener noreferrer"
+				   target="blank"><span class="more-link__text">All Tweets</span></a>
+			</div>
+		
+	</section>
+
+</div></div><div class="grid__col grid__col--3"><div class="grid__item"><section class="panel panel-default social social-media-xing elemBorderBottom">
+    <header class="panel-heading">
+        <h2 class="panel-title">Xing</h2>
+        <h3 class="panel-subtitle">Career network</h3>
+    </header>
+    <div class="panel-body">
+        <p>Connect with the Bertelsmann Stiftung on Xing.</p>
+    </div>
+    <div class="panel-footer align-center">
+        <a href="https://www.xing.com/companies/bertelsmannstiftung" target="_blank" class="visit-button external-link-new-window">read more</a>
+    </div>
+</section></div></div><div class="grid__col grid__col--3"><div class="grid__item">
+        <section class="panel panel-default social social-media-youtube elemBorderBottom">
+            <header class="panel-heading">
+                <h2 class="panel-title">Youtube</h2>
+            </header>
+            <div class="panel-body">
+                <img src="/fileadmin/files/_processed_/9/d/csm_iStock_000021184488_XL_MPL_Original_41915_c431ace617.jpg" class="centerer" alt="" title="iStock_000021184488_XL_MPL.jpg" />
+            </div>
+            <div class="panel-footer align-center">
+                <a href="https://www.youtube.com/user/BertelsmannStiftung" target="_blank" class="visit-button external-link-new-window">read more</a>
+            </div>
+        </section>
+
+
+</div></div></div></div></div>
+	</main>
+	
+<footer class="footer">
+	<div class="footer__inner">
+		<div class="footer__logo">
+			<div class="logo logo--gray logo--large">
+				<svg class="logo__image" viewBox="0 0 230 28" role="img" aria-labelledby="logo-6a22-title">
+					<title id="logo-6a22-title">Bertelsmann Stiftung</title>
+					<use xlink:href="#icon-logo-large"></use>
+				</svg>
+			</div>
+		</div>
+		<div class="footer__links-wrapper">
+			<div class="footer__links footer__links--main">
+				<div class="footer__navigation" aria-label="Service">
+					<ul class="footer__navigation-list footer__navigation-list--main">
+						<li class="footer__navigation-item"><a href="/en/system/service/contact/" class="footer__navigation-link">Contact</a></li><li class="footer__navigation-item"><a href="/en/careers/" class="footer__navigation-link">Careers</a></li><li class="footer__navigation-item"><a href="/en/press/" class="footer__navigation-link">Press</a></li><li class="footer__navigation-item"><a href="/en/system/newsletters/newsletter-subscription/" class="footer__navigation-link">Newsletters</a></li><li class="footer__navigation-item"><a href="/en/system/service/rss-feeds/" class="footer__navigation-link">RSS Feeds</a></li><li class="footer__navigation-item"><a href="/en/publications/books-and-studies/shopping-cart/" class="footer__navigation-link">Shopping Cart</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__links-sub-wrapper">
+				<div class="footer__links">
+					<h3 class="footer__links-headline" id="footer-links-0">
+						Topics</h3>
+					<div class="footer__navigation" aria-labelledby="footer-links-0">
+						<ul class="footer__navigation-list">
+							<li class="footer__navigation-item"><a href="/en/topics/advancing-societies/" class="footer__navigation-link">Advancing Society</a></li><li class="footer__navigation-item"><a href="/en/topics/improving-education/" class="footer__navigation-link">Improving Education</a></li><li class="footer__navigation-item"><a href="/en/topics/strengthening-economies/" class="footer__navigation-link">Strengthening Economy</a></li><li class="footer__navigation-item"><a href="/en/topics/vitalizing-culture/" class="footer__navigation-link">Vitalizing Culture</a></li><li class="footer__navigation-item"><a href="/en/topics/shaping-democracy/" class="footer__navigation-link">Shaping Democracy</a></li><li class="footer__navigation-item"><a href="/en/topics/promoting-health/" class="footer__navigation-link">Promoting Health</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__links">
+					<h3 class="footer__links-headline" id="footer-links-1">
+						Our Projects</h3>
+					<div class="footer__navigation" aria-labelledby="footer-links-1">
+						<ul class="footer__navigation-list">
+							<li class="footer__navigation-item"><a href="/en/our-projects/" class="footer__navigation-link">Project Overview</a></li><li class="footer__navigation-item"><a href="/en/our-projects/what-we-do/" class="footer__navigation-link">What We Do</a></li><li class="footer__navigation-item"><a href="/en/our-projects/blogs/" class="footer__navigation-link">Blogs</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__links">
+					<h3 class="footer__links-headline" id="footer-links-2">
+						Publications</h3>
+					<div class="footer__navigation" aria-labelledby="footer-links-2">
+						<ul class="footer__navigation-list">
+							<li class="footer__navigation-item"><a href="/en/publications/books-and-studies/all-publications/" class="footer__navigation-link">Search</a></li><li class="footer__navigation-item"><a href="/en/publications/informational-material/" class="footer__navigation-link">Informational Material</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__links">
+					<h3 class="footer__links-headline" id="footer-links-3">
+						About Us</h3>
+					<div class="footer__navigation" aria-labelledby="footer-links-3">
+						<ul class="footer__navigation-list">
+							<li class="footer__navigation-item"><a href="/en/about-us/what-motivates-us/our-principles/" class="footer__navigation-link">Our Principles</a></li><li class="footer__navigation-item"><a href="/en/about-us/what-motivates-us/our-mission/" class="footer__navigation-link">Our Mission</a></li><li class="footer__navigation-item"><a href="/en/about-us/who-we-are/contact/" class="footer__navigation-link">Contact</a></li><li class="footer__navigation-item"><a href="/en/about-us/who-we-are/organization/" class="footer__navigation-link">Organization</a></li><li class="footer__navigation-item"><a href="/en/about-us/who-we-are/chronicle/" class="footer__navigation-link">Chronik</a></li><li class="footer__navigation-item"><a href="/en/about-us/who-we-are/offices/" class="footer__navigation-link">Offices</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__social">
+			<div class="footer__navigation" aria-label="Social-Media">
+				<ul class="footer__navigation-list footer__navigation-list--inline footer__navigation-list--social">
+					
+						<li class="footer__navigation-item">
+							<a class="footer__navigation-link footer__navigation-link--icon" href="https://www.facebook.com/BertelsmannStiftung" target="_blank">
+								<span class="footer__navigation-link-icon">
+									<svg class="icon icon--facebook" viewBox="0 0 200 200" role="presentation">
+										<use xlink:href="#icon-facebook"></use>
+									</svg>
+								</span>
+								<span class="footer__navigation-link-label">Facebook</span></a>
+						</li>
+					
+					
+						<li class="footer__navigation-item">
+							<a class="footer__navigation-link footer__navigation-link--icon" href="https://twitter.com/BertelsmannSt" target="_blank">
+								<span class="footer__navigation-link-icon">
+									<svg class="icon icon--twitter" viewBox="0 0 200 200" role="presentation">
+										<use xlink:href="#icon-twitter"></use>
+									</svg>
+								</span>
+								<span class="footer__navigation-link-label">Twitter</span>
+							</a>
+						</li>
+					
+					
+						<li class="footer__navigation-item">
+							<a class="footer__navigation-link footer__navigation-link--icon" href="https://www.youtube.com/user/BertelsmannStiftung?gl=DE&amp;amp;hl=de" target="_blank">
+								<span class="footer__navigation-link-icon">
+									<svg class="icon icon--youtube" viewBox="0 0 200 200" role="presentation">
+										<use xlink:href="#icon-youtube"></use>
+									</svg>
+								</span>
+								<span class="footer__navigation-link-label">Youtube
+							</span>
+							</a>
+						</li>
+					
+					
+						<li class="footer__navigation-item">
+							<a class="footer__navigation-link footer__navigation-link--icon" href="https://www.linkedin.com/company/bertelsmann-stiftung/" target="_blank">
+								<span class="footer__navigation-link-icon">
+									<svg class="icon icon--linkedin" viewBox="0 0 200 200" role="presentation">
+										<use xlink:href="#icon-linkedin"></use>
+									</svg>
+								</span>
+								<span class="footer__navigation-link-label">LinkedIn</span>
+							</a>
+
+						</li>
+					
+					
+						<li class="footer__navigation-item">
+							<a class="footer__navigation-link footer__navigation-link--icon" href="https://www.xing.com/companies/bertelsmannstiftung" target="_blank">
+								<span class="footer__navigation-link-icon">
+									<svg class="icon icon--xing" viewBox="0 0 200 200" role="presentation">
+										<use xlink:href="#icon-xing"></use>
+									</svg>
+								</span>
+								<span class="footer__navigation-link-label">Xing</span>
+							</a>
+						</li>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="footer__meta">
+			<div class="footer__navigation" aria-label="Meta-Navigation">
+				<ul class="footer__navigation-list footer__navigation-list--inline footer__navigation-list--meta">
+					<li class="footer__navigation-item">Bertelsmann Stiftung 2018</li>
+					<li class="footer__navigation-item"><a href="/en/system/imprint/" class="footer__navigation-link">Imprint</a></li><li class="footer__navigation-item"><a href="/en/system/privacy-policy/" class="footer__navigation-link">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+</div>
+
+
+
+<script src="https://assets.bertelsmann-stiftung.de/2/translations/en.js"></script><script src="https://assets.bertelsmann-stiftung.de/2/javascripts/main.js"></script>            <!-- Copyright (c) 2000-2017 etracker GmbH. All rights reserved. -->
+            <!-- This material may not be reproduced, displayed, modified or distributed -->
+            <!-- without the express prior written permission of the copyright holder. -->
+            <!-- etracker tracklet 4.0 -->
+            <script type="text/javascript">
+            var et_pagename = "/en/careers/";
+            var et_areas = "Bst%2F%5BEN%5D%2FCareers%20%28Startpoint%29%2FCareers%2F";
+            //var et_url = "";
+            //var et_target = "";
+            //var et_ilevel = 0;
+            //var et_tval = "";
+            //var et_cust = 0;
+            //var et_tonr = "";
+            //var et_tsale = 0;
+            //var et_basket = "";
+            //var et_lpage = "";
+            //var et_trig = "";
+            //var et_sub = "";
+            //var et_se = "";
+            //var et_tag = "";
+            </script>
+            <script id="_etLoader" type="text/javascript" charset="UTF-8" data-secure-code="EB9mS9" src="//static.etracker.com/code/e.js"></script>
+            <!-- etracker CODE END -->
+            <!-- etracker CODE NOSCRIPT 4.0 -->
+            <noscript><link rel="stylesheet" media="all" href="//www.etracker.de/cnt_css.php?et=EB9mS9&amp;v=4.0&amp;java=n&amp;et_easy=0&amp;et_pagename=%2Fen%2Fcareers%2F&amp;et_areas=Bst%2F%5BEN%5D%2FCareers%20%28Startpoint%29%2FCareers%2F&amp;et_ilevel=0&amp;et_target=,0,0,0&amp;et_lpage=0&amp;et_trig=0&amp;et_se=0&amp;et_cust=0&amp;et_basket=&amp;et_url=&amp;et_tag=&amp;et_sub=&amp;et_organisation=&amp;et_changegraphic=" /></noscript>
+            <!-- etracker CODE NOSCRIPT END-->
+            <script type="text/javascript">
+
+var aDownload = document.querySelectorAll('a.download');
+
+function aDownloadTrack($this) {
+    var et_category = 'download',
+        et_object = encodeURIComponent($this.getAttribute('href')),
+        et_action = 'download',
+        et_tags = encodeURIComponent($this.textContent);
+
+    if (typeof ET_Event === 'undefined' || typeof ET_Event.eventStart === 'undefined') return;
+    ET_Event.eventStart(et_category,et_object,et_action,et_tags);
+};
+
+for (var i = 0; i < aDownload.length; i++) {
+    var $this = aDownload[i];
+    $this.addEventListener('click', aDownloadTrack($this), false);
+}
+
+
+var jsETrackerLinks = document.querySelectorAll('.jsETrackerLink');
+
+function jsETrackerLink($this) {
+    var et_category = $this.getAttribute('data-eta'), et_object = $this.getAttribute('etb'), et_action = $this.getAttribute('etc'), et_tags = $(this).data('etd');
+
+    if (typeof ET_Event === 'undefined' || typeof ET_Event.eventStart === 'undefined') {
+        return;
+    }
+
+    ET_Event.eventStart(et_category, et_object, et_action, et_tags);
+}
+
+
+for (var i = 0; i < jsETrackerLinks.length; i++) {
+    var $this = jsETrackerLinks[i];
+    $this.addEventListener('mousedown', jsETrackerLink($this), false);
+}
+</script>
+</body>
+</html>
+<!-- Cached page generated 27-09-18 00:56. Expires 27-09-18 06:56 -->
+<!-- Parsetime: 0ms -->
